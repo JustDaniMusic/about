@@ -128,7 +128,7 @@ header nav .logo a:hover {
 
 .intro-content {
 	position: absolute;
-	top: 50%;
+	top: 70%;
 	left: 50%;
 	transform: translate(-50%, -70%);
 	white-space: nowrap;
@@ -145,7 +145,7 @@ header nav .logo a:hover {
 }
 
 .tagline {
-	position: center;
+	text-align: center;
 	color: #cecece;
 	font-size: 1.25em;
 	font-weight: 200;
@@ -187,6 +187,16 @@ a {
 	-webkit-filter: blur(1px);
 	transition: 0.5s all ease;
 }
+p {
+text-align: center;
+text-indent: -10px;
+color: #cecece;
+font-size: 1.25em;
+font-weight: 200;
+letter-spacing: 3px;
+word-spacing: 1px;
+}
+
 
 .hide {
 	display: none;
@@ -232,7 +242,6 @@ a {
 	}
 
 	.tagline {
-		text-align: center;
 		display: flex;
 		align-items: center;
 		justify-content: center;
